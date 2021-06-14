@@ -1,80 +1,12 @@
-### Termos e acordos
+### Trybeer
 
-Ao iniciar este projeto, você concorda com as diretrizes do Código de Ética e Conduta e do Manual da Pessoa Estudante da Trybe
-
-# Boas vindas ao repositório do projeto TryBeer!
-
-Você já usa o GitHub diariamente para desenvolver os exercícios, certo? Agora, para desenvolver os projetos, você deverá seguir as instruções a seguir. Fique atento a cada passo, e se tiver qualquer dúvida, nos envie por Slack! #vqv 🚀
-
-Aqui você vai encontrar os detalhes de como estruturar o desenvolvimento do seu projeto a partir deste repositório, utilizando uma branch específica e um Pull Request para colocar seus códigos.
-
----
-
-# Sumário
-
-- [Habilidades](#habilidades)
-- [Entregáveis](#entregáveis)
-  - [O que deverá ser desenvolvido](#o-que-deverá-ser-desenvolvido)
-  - [Desenvolvimento](#desenvolvimento)
-  - [Data de entrega](#data-de-entrega)
-- [Instruções para entregar seu projeto](#instruções-para-entregar-seu-projeto)
-  - [Antes de começar a desenvolver](#antes-de-começar-a-desenvolver)
-  - [Durante o desenvolvimento](#durante-o-desenvolvimento)
-  - [Depois de terminar o desenvolvimento (opcional)](#depois-de-terminar-o-desenvolvimento-opcional)
-- [Como desenvolver](#como-desenvolver)
-- [Requisitos do projeto](#requisitos-do-projeto)
-  - [Linter](#linter)
-  - [Lista de requisitos](#lista-de-requisitos)
-
-    `Requisitos Entrega 1:`
-    - [1 - Crie uma página de login](#1---crie-uma-página-de-login)
-    - [2 - Crie uma página de registro de usuários](#2---crie-uma-página-de-registro-de-usuários)
-    - [3 - Crie o menu top e o menu side bar](#3---crie-o-menu-top-e-o-menu-side-bar)
-    
-    - [4 - Criar tela de perfil do cliente](#4---criar-tela-de-perfil-do-cliente)
-    - [5 - Criar Tela de Produtos](#5---criar-tela-de-produtos)
-    
-    `Requisitos Entrega 2:`
-    - [6 - Criar Tela de Checkout](#6---criar-tela-de-checkout)
-    - [7 - Criar Tela de Meus Pedidos](#7---criar-tela-de-meus-pedidos)
-    - [8 - Criar Tela de Detalhes Pedidos](#8---criar-tela-de-detalhes-pedidos)
-    - [9 - Criar menu side bar para Administrador](#9---criar-menu-side-bar-para-administrador)
-    - [10 - Criar tela de perfil de Administrador](#10---criar-tela-de-perfil-de-administrador)
-    - [11 - Criar tela de pedidos de admin](#11---criar-tela-de-pedidos-de-admin)
-    - [12 - Criar tela de Detalhes de admin](#12---criar-tela-de-detalhes-de-admin)
-    
-    `Bônus:`
-    - [13 - Cobertura de testes unitários](#13---cobertura-de-testes-unitários)
-- [Avisos Finais](#avisos-finais)
-
----
-
-# Habilidades
-
-Nesse projeto, você será capaz de:
-
-- Aderência do código à especificação. Seu programa deve se comportar como especificado no repositório e no protótipo;
-- Organização do seu código e a arquitetura geral da aplicação (tanto da API quando do front-end);
-- Aderência ao padrão REST na API;
-- Cobertura de testes. Seu código deve ser testável , e deve possuir uma suíte de testes robusta e com alta cobertura.
-
-# Entregáveis
-
-Para entregar o seu projeto você deverá criar um Pull Request neste repositório.
-
-Lembre-se que você pode consultar nosso conteúdo sobre [Git & GitHub](https://course.betrybe.com/intro/git/) sempre que precisar!
-
----
 
 ## O que deverá ser desenvolvido
 
-Esse será o projeto mais desafiador até agora! Você será responsável por criar uma aplicação de ponta a ponta!
 
-Isso significa que a API, o banco de dados e o front-end serão escritos por você. 😁
+Foi criada uma plataforma de delivery de cerveja. 🍻
 
-O projeto em si é super divertido! Você vai criar uma plataforma de delivery de cerveja. 🍻
-
-Para facilitar o entendimento, dá para dividirmos a aplicação em três partes:
+A aplicação pode ser dividida em três partes:
 
 - Front-end do **cliente**, onde nossos clientes vão comprar cerveja;
 
@@ -82,36 +14,16 @@ Para facilitar o entendimento, dá para dividirmos a aplicação em três partes
 
 - API, que será compartilhada entre cliente e admin.
 
-O banco de dados utilizado será o `MySQL`!
+O banco de dados utilizado foi o `MySQL`!
 
-Você pode acessar um protótipo do front-end [aqui](https://www.figma.com/file/tzP4txu6Uy0qCxVZWdWMBO/TryBeer?node-id=0%3A1) neste link do Figma.
-
-Para servir arquivos estáticos como imagens no back-end, utilize o seguinte path: `/images` para manter de acordo com os caminhos da imagem que são salvas com os produtos no `script.sql`.
-
-
-##### ⚠️ Lembre-se de escrever testes unitários e sinta-se livre para alterar a UI. Contudo, respeite os atributos `data-testid`, pois eles serão usados na correção do projeto.
-
-Você pode ler mais sobre os atributos que serão utilizados para testes [neste link](https://www.eduardopedroso.com.br/?p=494).
-
-##### ⚠️ Para ver os comentários sobre cada componente, basta clicar no ícone de comentários no Figma (lado esquerdo superior).
-
-![image](https://res.cloudinary.com/drdpedroso/image/upload/c_scale,w_400/v1575815877/Screenshot_2019-12-08_at_11.37.25_kzt7rl.png)
-
----
 
 ## Desenvolvimento
 
-Esse repositório contém duas pastas, `back-end` e `front-end`, onde você deve desenvolver o front-end e o back-end da aplicação. Ambas as pastas contêm um projeto iniciado com as configurações básicas necessárias. Após clonar o projeto e instalar as dependências, sinta-se livre para escolher usar Redux ou ContextAPI + React Hooks. Saiba avaliar as vantagens/desvantagens de cada um na hora da escolha.
+Esse repositório contém duas pastas, `back-end` e `front-end`, onde foi desenvolvido o front-end e o back-end da aplicação. 
 
-Para o banco de dados, você deverá utilizar o `MySQL`. Já existe um script, na raiz do seu app. O nome do script é `script.sql`.
+- A aplicação te um admin padrão com o nome de usuário `Tryber Admin` e senha `123456`.
 
-##### Você também deve **escrever testes unitários que devem cobrir pelo menos 90% do projeto**. Na [documentação do Jest CLI](https://jestjs.io/docs/en/cli) é possível ver como essa cobertura é coletada.
-
-Para que seu projeto seja corretamente avaliado, siga as orientações a seguir:
-
-- Sua aplicação deve ter um admin padrão com o nome de usuário `Tryber Admin` e senha `123456`.
-
-- Sua aplicação deve ter, no mínimo, os produtos abaixo cadastrados. O arquivo `images.tar.gz`, na raiz do projeto, contém imagens para estes produtos.
+- A aplicação tem os produtos abaixo cadastrados. O arquivo `images.tar.gz`, na raiz do projeto, contém imagens para estes produtos.
 
   - Skol Lata 250ml, R$ 2.20;
   - Heineken 600ml, R$ 7.50;
@@ -125,13 +37,13 @@ Para que seu projeto seja corretamente avaliado, siga as orientações a seguir:
   - Skol Beats Senses 269ml, R$ 3.57;
   - Stella Artois 275ml, R$ 3.49.
 
-- O front-end deve ser iniciado com `npm start` na pasta `front-end` e escutar a porta `3000`. A API deve ser iniciada com `npm start` dentro da pasta `back-end` e escutar a porta `3001`.
+- O front-end é iniciado com `npm start` na pasta `front-end` e escuta a porta `3000`. A API deve ser iniciada com `npm start` dentro da pasta `back-end` e escutar a porta `3001`.
 
-- O uso de `localStorage` é necessário para que as informações não se percam caso o usuário atualize a página.
+- O uso de `localStorage` foi necessário para que as informações não se percam caso o usuário atualize a página.
 
 - No `localStorage` do navegador:
 
-  - A chave `user` deve conter a seguinte estrutura:
+  - A chave `user` contem a seguinte estrutura:
 
     ```json
     {
@@ -142,221 +54,7 @@ Para que seu projeto seja corretamente avaliado, siga as orientações a seguir:
     }
     ```
 
-  - Ao deslogar, remova completamente a chave `user` do `localStorage`.
-
-### Data de Entrega
-
-Data de entrega para avaliação final do projeto: `21/05/2021 - 14:00h`.
-
-# Instruções para entregar seu projeto
-
-## Antes de começar a desenvolver
-
-1. Clone o repositório
-
-- `git clone https://github.com/betrybe/sd-07-trybeer.git`.
-- Entre na pasta do repositório que você acabou de clonar:
-  - `cd sd-07-trybeer`
-
-2. Instale as dependências [**Caso existam**]
-
-- `npm install`
-
-3. Crie uma branch a partir da branch `master`
-
-- Verifique que você está na branch `master`
-  - Exemplo: `git branch`
-- Se não estiver, mude para a branch `master`
-  - Exemplo: `git checkout master`
-- Agora crie uma branch à qual você vai submeter os `commits` do seu projeto
-  - Você deve criar uma branch no seguinte formato: `nome-de-usuario-nome-do-projeto`
-  - Exemplo: `git checkout -b joaozinho-sd-07-trybeer`
-
-4. Adicione as mudanças ao _stage_ do Git e faça um `commit`
-
-- Verifique que as mudanças ainda não estão no _stage_
-  - Exemplo: `git status` (deve aparecer listada a pasta _joaozinho_ em vermelho)
-- Adicione o novo arquivo ao _stage_ do Git
-  - Exemplo:
-    - `git add .` (adicionando todas as mudanças - _que estavam em vermelho_ - ao stage do Git)
-    - `git status` (deve aparecer listado o arquivo _joaozinho/README.md_ em verde)
-- Faça o `commit` inicial
-  - Exemplo:
-    - `git commit -m 'iniciando o projeto x'` (fazendo o primeiro commit)
-    - `git status` (deve aparecer uma mensagem tipo _nothing to commit_ )
-
-5. Adicione a sua branch com o novo `commit` ao repositório remoto
-
-- Usando o exemplo anterior: `git push -u origin joaozinho-sd-07-trybeer`
-
-6. Crie um novo `Pull Request` _(PR)_
-
-- Vá até a página de _Pull Requests_ do [repositório no GitHub](https://github.com/tryber/sd-07-trybeer/pulls)
-- Clique no botão verde _"New pull request"_
-- Clique na caixa de seleção _"Compare"_ e escolha a sua branch **com atenção**
-- Clique no botão verde _"Create pull request"_
-- Adicione uma descrição para o _Pull Request_ e clique no botão verde _"Create pull request"_
-- **Não se preocupe em preencher mais nada por enquanto!**
-- Volte até a [página de _Pull Requests_ do repositório](https://github.com/tryber/sd-07-trybeer/pulls) e confira que o seu _Pull Request_ está criado
-
----
-
-## Durante o desenvolvimento
-
-- Faça `commits` das alterações que você fizer no código regularmente
-
-- Lembre-se de sempre após um (ou alguns) `commits` atualizar o repositório remoto
-
-- Os comandos que você utilizará com mais frequência são:
-  1. `git status` _(para verificar o que está em vermelho - fora do stage - e o que está em verde - no stage)_
-  2. `git add` _(para adicionar arquivos ao stage do Git)_
-  3. `git commit` _(para criar um commit com os arquivos que estão no stage do Git)_
-  4. `git push -u nome-da-branch` _(para enviar o commit para o repositório remoto na primeira vez que fizer o `push` de uma nova branch)_
-  5. `git push` _(para enviar o commit para o repositório remoto após o passo anterior)_
-
----
-
-## Depois de terminar o desenvolvimento (opcional)
-
-Para sinalizar que o seu projeto está pronto para o _"Code Review"_ dos seus colegas, faça o seguinte:
-
-- Vá até a página **DO SEU** _Pull Request_, adicione a label de _"code-review"_ e marque seus colegas:
-
-  - No menu à direita, clique no _link_ **"Labels"** e escolha a _label_ **code-review**;
-
-  - No menu à direita, clique no _link_ **"Assignees"** e escolha **o seu usuário**;
-
-  - No menu à direita, clique no _link_ **"Reviewers"** e digite `students`, selecione o time `tryber/students-sd-07`.
-
-Caso tenha alguma dúvida, [aqui tem um video explicativo](https://vimeo.com/362189205).
-
----
-
-## Revisando um pull request
-
-Use o conteúdo sobre [Code Review](https://course.betrybe.com/real-life-engineer/code-review/) para te ajudar a revisar os _Pull Requests_.
-
----
-
-# Como desenvolver
-
-#### 💡Veja o exemplo a seguir de como o projeto pode se parecer depois de pronto. Lembre-se que você pode ~~e deve~~ ir além para deixar o projeto com a sua cara e impressionar à todos!
-
-#### ⚠️ Leia-os atentamente e siga à risca o que for pedido. ⚠️
-
-Vamos pedir que você adicione `data-testid` em alguns elementos, além de algumas tags e textos especificos. Siga à risca o que iremos pedir nos requisitos, para que o corretor automatizado possa avaliar o seu projeto corretamente.
-
-O não cumprimento de um requisito, total ou parcialmente, impactará na sua avaliação.
-
-⚠️ Lembre-se de que o seu projeto só será avaliado se estiver passando pelos _checks_ do **ESLint** e se estiver, também, seguindo corretamente os padrões REST para rotas e MSC para o back-end. Além disso, você deve também disponibilizar um script contendo a criação do seu banco de dados, das tabelas e inserção de dados iniciais.
-
-⚠️ A criação dos endpoints da API, a modelagem do banco e a estrutura geral do projeto é livre, desde que os requisitos especificados na seção `Requisitos Gerais` sejam cumpridos.
-
-O intuito desse app é que uma pessoa possa pedir uma cerveja no aplicativo e outra pessoa possa aceitar esse pedido no **admin**.
-
-##### O projeto será composto por duas entregas, cada uma especificada abaixo com seus respectivos requisitos e o prazo decidido com a facilitação.
-
-### 👀Observações importantes:
-
-Haverá um arquivo chamado `script.sql` onde já contém a criação de do banco e alguns inserts.
-
-Para rodar o arquivo basta rodar o comando:
-
-`mysql -u root -p`
-
-Isso fará com que abra o terminal do MySQL se abra. Depois, basta executar o comando:
-
-`source pasta_do_projeto/script.sql`
-
-Assim já irá criar o banco e terá alguns dados inseridos. **É essencial seguir esses passos!**
-
-Haverá um arquivo no caminho: `sd-07-trybeer/cypress/plugins/index.js`. Neste arquivo, na linha 17, Haverá a seguinte comando:
-
-`const connection = my.createConnection({host: process.env.HOSTNAME, user: process.env.MYSQL_USER, password: process.env.MYSQL_PASSWORD});`
-
-**Você irá precisar configurar as variáveis globais do MySQL.** Você pode usar esse [Conteúdo de variáveis de ambiente com NodeJS](https://blog.rocketseat.com.br/variaveis-ambiente-nodejs/) como referência.
-
-**Faça essas configurações também para as variáveis de ambiente usadas nesses arquivos:**
-
-`sd-07-cookmaster/config/config.js`
-
-```
-module.exports = {
-  "development": {
-    "username": process.env.MYSQL_USER,
-    "password": process.env.MYSQL_PASSWORD,
-    "database": 'Trybeer',
-    "host": process.env.HOSTNAME,
-    "dialect": 'mysql',
-  },
-  "test": {
-    "username": process.env.MYSQL_USER,
-    "password": process.env.MYSQL_PASSWORD,
-    "database": 'Trybeer',
-    "host": process.env.HOSTNAME,
-    "dialect": "mysql",
-  },
-  "production": {
-    "username": process.env.MYSQL_USER,
-    "password": process.env.MYSQL_PASSWORD,
-    "database": 'Trybeer',
-    "host": process.env.HOSTNAME,
-    "dialect": 'mysql',
-  },
-};
-```
-
-**(Neste arquivo é obrigatório deixar o nome do database como `"database": 'Trybeer'`)**
-
-`sd-07-trybeer/back-end/models/connection.js`
-
-```
-const config = {
-  user: process.env.MYSQL_USER,
-  password: process.env.MYSQL_PASSWORD,
-  host: process.env.HOSTNAME,
-  database: 'Trybeer'
-};
-```
-
-(esse arquivo você irá criar e configurar quando programar a conexão com banco).
-
-**É essencial usar essas 3 variáveis nos três arquivos acima:**
-
-Variáveis:
-
-`host: process.env.HOSTNAME`
-`user: process.env.MYSQL_USER`
-`password: process.env.MYSQL_PASSWORD`
-
-**Com elas que iremos conseguir conectar ao banco do avaliador automático**
-
-# Requisitos do projeto
-
-### Linter
-
-Usaremos o [ESLint](https://eslint.org/) para fazer a análise estática do seu código.
-
-Este projeto já vem com as dependências relacionadas ao _linter_ configuradas nos arquivos `package.json` nos seguintes caminhos:
-
-- `sd-07-trybeer/back-end/package.json`
-- `sd-07-trybeer/front-end/package.json`
-
-Para poder rodar os `ESLint` em um projeto basta executar o comando `npm install` dentro do projeto e depois `npm run lint`. Se a análise do `ESLint` encontrar problemas no seu código, tais problemas serão mostrados no seu terminal. Se não houver problema no seu código, nada será impresso no seu terminal.
-
-Devido ao fato de as configurações das regras do `ESLint` dos projetos de front e back **serem diferentes**, **é preciso executar o `ESLint` em cada projeto**.
-
-Você pode também instalar o plugin do `ESLint` no `VSCode`, bastar ir em extensions e baixar o [plugin `ESLint`](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint).
-
----
-
-Usaremos também o [StyleLint](https://stylelint.io/) para fazer a análise estática do seu código.
-
-**O Stylelint é aplicável _APENAS_ no frontend**
-
-Para poder rodar o `StyleLint` em um projeto basta executar o comando `npm install` dentro do projeto e depois `npm run lint:styles`. Se a análise do `StyleLint` encontrar problemas no seu código, tais problemas serão mostrados no seu terminal. Se não houver problema no seu código, nada será impresso no seu terminal.
-
-### Requisitos Gerais
+### Requisitos Gerais do projeto
 
 - Os `endpoints` da API devem ser criados utilizando o padrão REST;
 
@@ -1196,34 +894,4 @@ O que será verificado:
 ```
 ![Entregue](./public/pedidoentregue.png)
 
-### Bônus
 
-### 13 - Cobertura de testes unitários
-
-- Escreva testes unitários com cobertura de, no mínimo, 90%, considerando front-end e back-end;
-
----
-
-# Avisos finais
-
-Ao finalizar e submeter o projeto, não se esqueça de avaliar sua experiência preenchendo o formulário. Leva menos de 3 minutos!
-
-Link: [FORMULÁRIO DE AVALIAÇÃO DE PROJETO](https://be-trybe.typeform.com/to/ZTeR4IbH)
-
-#VQV
-
----
-
-### IMPORTANTE ⚠️ 
-
-* O projeto TryBeer é a base para o desenvolvimento do projeto TryBeer **v2**;
-
-* Portanto, **o cumprimento de 100% dos requisitos obrigatórios desse projeto** (TryBeer) é um pré-requisito para o projeto **TryBeer v2**;
-
-* O grupo precisa estar ciente que a não realização de todos os requisitos _(mesmo que o cumprimento pelo menos 80% dos requisitos obrigatórios para garantir a aprovação antes do prazo para entrar em recuperação, ou 90% dos requisitos totais depois do prazo)_, impactará na entrega do **TryBeer v2**;
-
-* O prazo disponível para esse projeto contempla o tempo previsto para atingir o objetivo de concluir 100% dos requisitos obrigatórios;
-
-* Dessa forma, o grupo terá todas as condições para chegar ao projeto **TryBeer v2** com o código preparado _(100% dos requisitos obrigatórios deste projeto)_ para iniciar o desenvolvimento dos seus requisitos.
-
-* O avaliador automático não necessariamente avalia seu projeto na ordem em que os requisitos aparecem no readme. Isso acontece para deixar o processo de avaliação mais rápido. Então, não se assuste se isso acontecer, ok?
