@@ -57,13 +57,12 @@ Esse repositório contém duas pastas, `back-end` e `front-end`, onde foi desenv
 
 ### Requisitos Gerais do projeto
 
-- Os `endpoints` da API devem ser criados utilizando o padrão REST;
+- Os `endpoints` da API foram criados utilizando o padrão REST;
 
-- O back-end deve utilizar o banco de dados `MySQL`;
+- O back-end deve utilizou o banco de dados `MySQL`;
 
-- O back-end deve ser construído seguindo o padrão arquitetural `MSC`;
+- O back-end foi construído seguindo o padrão arquitetural `MSC`;
 
-- Rode um script SQL na raiz do projeto com comandos para a criação do banco de dados, das tabelas, inserção dos dados iniciais e criação do admin padrão. O script é `script.sql`.
 
 ## Lista de requisitos
 
