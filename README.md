@@ -2,7 +2,7 @@
 
 ![grab-landing-page](https://github.com/sagacello/Trybeer/blob/main/DqRnAk.gif)
 
-## O que deverá ser desenvolvido
+## O que foi desenvolvido
 
 
 Foi criada uma plataforma de delivery de cerveja. 🍻
